@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:hsl(0, 0%, 12%);
+    font-family: "Inter";
+}
+.card{
+    margin: auto;
+    background-color:hsl(0, 0%, 8%);
+    width: 22rem;
+    height: 40%;
+    margin-top: 8rem;
+    border-radius: 20px;
+    padding: 45px;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+button{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 100%;
+}
+h3{
+    color:  hsl(0, 0%, 100%);
+}
+p{
+    color: hsl(0, 0%, 100%);
+}
+.author{
+    margin: 30px;
+    text-align: center;
+}
+.name{
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+.location{
+    margin-bottom: 20px;
+    color: hsl(75, 94%, 57%);
+}
